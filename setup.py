@@ -46,5 +46,5 @@ setup(
     description='i2c detection for some devices',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    py_modules=['ovos_i2c_detection'],
+    packages=['ovos_i2c_detection'],
 )

@@ -31,7 +31,7 @@ def is_wm8960():
     return False
 
 
-def is_respeaker_4mic:
+def is_respeaker_4mic():
     cmd = 'i2cdetect -y -a 1 0x3b 0x3b | egrep "(3b|UU)" | awk \'{print $2}\''
     out = subprocess.check_output(cmd, shell=True).strip()
     if out == b"3b" or out == b"UU":
@@ -39,7 +39,7 @@ def is_respeaker_4mic:
     return False
 
 
-def is_respeaker_6mic()():
+def is_respeaker_6mic():
     cmd = 'i2cdetect -y -a 1 0x35 0x35 | egrep "(35|UU)" | awk \'{print $2}\''
     out = subprocess.check_output(cmd, shell=True).strip()
     if out == b"35" or out == b"UU":

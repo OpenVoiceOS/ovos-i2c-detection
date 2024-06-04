@@ -1,5 +1,9 @@
 # Changelog
 
+## [V0.0.0a4](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/V0.0.0a4) (2024-06-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/V0.0.0a3...V0.0.0a4)
+
 ## [V0.0.0a3](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/V0.0.0a3) (2024-06-03)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/V0.0.0a2...V0.0.0a3)

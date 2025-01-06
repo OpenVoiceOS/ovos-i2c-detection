@@ -15,7 +15,7 @@ jobs:
       version_file: 'ovos_i2c_detection/version.py'
       setup_py: 'setup.py'
       update_changelog: true
-      publish_prerelease: true
+      publish_prerelease: false
       changelog_max_issues: 100
 
   notify:
@@ -46,7 +46,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v1
         with:
-          python-version: '3.11'
+          python-version: '3.9'
       - name: Install Build Tools
         run: |
           python -m pip install build wheel

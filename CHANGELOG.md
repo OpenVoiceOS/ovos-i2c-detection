@@ -6,6 +6,7 @@
 
 **Merged pull requests:**
 
+- debug [\#3](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/3) ([JarbasAl](https://github.com/JarbasAl))
 - fix:packaging [\#2](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/2) ([JarbasAl](https://github.com/JarbasAl))
 - feat/mk1\_support [\#1](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/1) ([builderjer](https://github.com/builderjer))
 

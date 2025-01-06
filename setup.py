@@ -7,7 +7,7 @@ BASEDIR = os.path.abspath(os.path.dirname(__file__))
 def get_version():
     """ Find the version of the package"""
     version = None
-    version_file = os.path.join(BASEDIR, 'version.py')
+    version_file = os.path.join(BASEDIR, 'ovos_i2c_detection/version.py')
     major, minor, build, alpha, post = (None, None, None, None, None)
     with open(version_file) as f:
         for line in f:

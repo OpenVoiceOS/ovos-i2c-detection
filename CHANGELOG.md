@@ -1,5 +1,18 @@
 # Changelog
 
+## [Unreleased](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/HEAD)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/V0.0.0a5...HEAD)
+
+**Merged pull requests:**
+
+- fix:packaging [\#2](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/2) ([JarbasAl](https://github.com/JarbasAl))
+- feat/mk1\_support [\#1](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/1) ([builderjer](https://github.com/builderjer))
+
+## [V0.0.0a5](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/V0.0.0a5) (2024-06-04)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/V0.0.0a4...V0.0.0a5)
+
 ## [V0.0.0a4](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/V0.0.0a4) (2024-06-04)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/V0.0.0a3...V0.0.0a4)

@@ -1,5 +1,6 @@
 import subprocess
-
+import serial
+from time import sleep
 
 def is_texas_tas5806():
     cmd = 'i2cdetect -y -a 1 0x2f 0x2f | egrep "(2f|UU)" | awk \'{print $2}\''
@@ -53,3 +54,19 @@ def is_adafruit_amp():
     if out == b"4b" or out == b"UU":
         return True
     return False
+
+def is_mark_1():
+    if is_wm8960():
+        try:
+            ser = serial.Serial("/dev/serial0", 9600, timeout=3)
+            ser.write(b'system.version')
+            while True:
+                is_mk1 = ser.readline().decode().rstrip()
+                if is_mk1 and "Command" in is_mk1:
+                    # This is a Mark 1
+                    return True
+                break
+            return False
+        except:
+            return False
+        

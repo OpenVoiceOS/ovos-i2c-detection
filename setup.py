@@ -57,6 +57,6 @@ setup(
     description='i2c detection for some devices',
     long_description=long_description,
     long_description_content_type="text/markdown",
-    install_requires=required("requirements/requirements.txt"),
+    install_requires=required("requirements.txt"),
     packages=['ovos_i2c_detection'],
 )

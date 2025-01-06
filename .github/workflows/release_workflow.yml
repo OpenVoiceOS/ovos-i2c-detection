@@ -15,7 +15,7 @@ jobs:
       version_file: 'ovos_i2c_detection/version.py'
       setup_py: 'setup.py'
       update_changelog: true
-      publish_prerelease: true
+      publish_prerelease: false
       changelog_max_issues: 100
 
   notify:

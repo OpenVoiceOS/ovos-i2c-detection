@@ -63,9 +63,11 @@ def is_mark_1():
             while True:
                 is_mk1 = ser.readline().decode().rstrip()
                 if is_mk1 and "Command" in is_mk1:
+                    ser.close()
                     # This is a Mark 1
                     return True
                 break
+            ser.close()
             return False
         except:
             return False

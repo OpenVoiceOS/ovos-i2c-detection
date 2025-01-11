@@ -19,3 +19,5 @@ Currently you can get detection results for the following devices
   * `is_respeaker_6mic`
 * Adafruit audio amp (https://www.adafruit.com/product/1752)
   * `is_adafruit_amp`
++ Mycroft Mark 1 device
+  + `is_mark_1`

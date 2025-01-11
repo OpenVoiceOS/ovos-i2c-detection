@@ -1,11 +1,12 @@
 # Changelog
 
-## [0.0.5a1](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/0.0.5a1) (2025-01-10)
+## [0.0.5a2](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/0.0.5a2) (2025-01-11)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/0.0.4...0.0.5a1)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/0.0.4...0.0.5a2)
 
 **Merged pull requests:**
 
+- Feat/mk1 [\#10](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/10) ([builderjer](https://github.com/builderjer))
 - close serial port [\#8](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/8) ([builderjer](https://github.com/builderjer))
 
 

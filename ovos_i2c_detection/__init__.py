@@ -1,6 +1,7 @@
 import subprocess
 import serial
 from time import sleep
+from ovos_utils.log import LOG
 
 def is_texas_tas5806():
     cmd = 'i2cdetect -y -a 1 0x2f 0x2f | egrep "(2f|UU)" | awk \'{print $2}\''
@@ -58,17 +59,23 @@ def is_adafruit_amp():
 def is_mark_1():
     if is_wm8960():
         try:
-            ser = serial.Serial("/dev/serial0", 9600, timeout=3)
+            ser = serial.Serial("/dev/ttyAMA0", 9600, timeout=5)
             ser.write(b'system.version')
-            while True:
+            while ser.is_open:
                 is_mk1 = ser.readline().decode().rstrip()
                 if is_mk1 and "Command" in is_mk1:
+                    # Check for a version
+                    mk1_ver = ser.readline().decode().rstrip()
+                    # New versions of the firmware will return a version that needs read to continue
+                    if mk1_ver:
+                        LOG.debug(f"Firmware version {mk1_ver}")
                     ser.close()
                     # This is a Mark 1
                     return True
-                break
+                ser.close()
             ser.close()
             return False
-        except:
+        except Exception as e:
+            LOG.error(e)
             return False
         

@@ -4,6 +4,19 @@ from time import sleep
 from ovos_utils.log import LOG
 
 def is_texas_tas5806():
+    """
+    Detect the presence of a Texas TAS5806 audio amplifier via I2C communication.
+    
+    Executes an I2C detection command to identify the Texas TAS5806 audio amplifier on bus 1 at address 0x2f.
+    
+    Returns:
+        bool: True if the TAS5806 amplifier is detected, False otherwise
+    
+    Notes:
+        - Uses i2cdetect command to probe the I2C bus
+        - Checks for device response with address "2f" or "UU"
+        - Requires i2c-tools to be installed
+    """
     cmd = 'i2cdetect -y -a 1 0x2f 0x2f | egrep "(2f|UU)" | awk \'{print $2}\''
     out = subprocess.check_output(cmd, shell=True).strip()
     if out == b"2f" or out == b"UU":
@@ -57,6 +70,22 @@ def is_adafruit_amp():
     return False
 
 def is_mark_1():
+    """
+    Detect the presence of a Mark 1 device via serial communication.
+    
+    Checks for the Mark 1 device by first verifying the presence of a WM8960 audio codec,
+    then attempting to establish a serial connection and retrieve system version information.
+    
+    Returns:
+        bool: True if a Mark 1 device is successfully detected, False otherwise
+    
+    Notes:
+        - Requires WM8960 audio codec to be present
+        - Uses serial communication on /dev/ttyAMA0 at 9600 baud
+        - Sends 'system.version' command to verify device
+        - Logs firmware version if successfully detected
+        - Handles potential serial communication errors gracefully
+    """
     if is_wm8960():
         try:
             ser = serial.Serial("/dev/ttyAMA0", 9600, timeout=5)

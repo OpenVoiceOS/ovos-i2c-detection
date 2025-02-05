@@ -21,3 +21,5 @@ Currently you can get detection results for the following devices
   * `is_adafruit_amp`
 + Mycroft Mark 1 device
   + `is_mark_1`
+* HiFiBerry DAC Pro (https://www.hifiberry.com/shop/boards/dac2-pro/)
+  * `is_hifiberry_dac_pro`

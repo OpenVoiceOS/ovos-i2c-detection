@@ -108,3 +108,9 @@ def is_mark_1():
             LOG.error(e)
             return False
         
+def is_hifiberry_dac_pro():
+    cmd = 'i2cdetect -y -a 1 0x4d 0x4d | egrep "(4d|UU)" | awk \'{print $2}\''
+    out = subprocess.check_output(cmd, shell=True).strip()
+    if out == b"4d" or out == b"UU":
+        return True
+    return False

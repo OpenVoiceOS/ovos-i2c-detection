@@ -1,13 +1,16 @@
 # Changelog
 
-## [0.0.5a2](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/0.0.5a2) (2025-01-11)
+## [0.0.6a5](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/0.0.6a5) (2026-08-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/0.0.4...0.0.5a2)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/0.0.5...0.0.6a5)
 
 **Merged pull requests:**
 
-- Feat/mk1 [\#10](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/10) ([builderjer](https://github.com/builderjer))
-- close serial port [\#8](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/8) ([builderjer](https://github.com/builderjer))
+- ci: migrate release workflow to shared OpenVoiceOS automations [\#25](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/25) ([JarbasAl](https://github.com/JarbasAl))
+- docs: rewrite README in Simplified Technical English [\#24](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/24) ([JarbasAl](https://github.com/JarbasAl))
+- Update dependency python to 3.14 [\#15](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/15) ([renovate[bot]](https://github.com/apps/renovate))
+- Configure Renovate [\#14](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/14) ([renovate[bot]](https://github.com/apps/renovate))
+- 📝 Add docstrings to `feat/mk1` [\#12](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/12) ([coderabbitai[bot]](https://github.com/apps/coderabbitai))
 
 
 

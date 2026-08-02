@@ -1,11 +1,12 @@
 # Changelog
 
-## [0.0.6a4](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/0.0.6a4) (2026-07-31)
+## [0.0.6a5](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/0.0.6a5) (2026-08-02)
 
-[Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/0.0.5...0.0.6a4)
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/0.0.5...0.0.6a5)
 
 **Merged pull requests:**
 
+- ci: migrate release workflow to shared OpenVoiceOS automations [\#25](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/25) ([JarbasAl](https://github.com/JarbasAl))
 - docs: rewrite README in Simplified Technical English [\#24](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/24) ([JarbasAl](https://github.com/JarbasAl))
 - Update dependency python to 3.14 [\#15](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/15) ([renovate[bot]](https://github.com/apps/renovate))
 - Configure Renovate [\#14](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/14) ([renovate[bot]](https://github.com/apps/renovate))

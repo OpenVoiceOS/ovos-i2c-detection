@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.6a6](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/0.0.6a6) (2026-09-25)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/0.0.6a5...0.0.6a6)
+
+**Merged pull requests:**
+
+- ci: call the shared licence-check workflow [\#29](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/29) ([openvoiceos-bot](https://github.com/openvoiceos-bot))
+
 ## [0.0.6a5](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/0.0.6a5) (2026-08-02)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/0.0.5...0.0.6a5)

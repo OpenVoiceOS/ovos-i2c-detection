@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.0.6a7](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/0.0.6a7) (2026-09-26)
+
+[Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/0.0.6a6...0.0.6a7)
+
+**Merged pull requests:**
+
+- Update actions/setup-python action to v7 [\#23](https://github.com/OpenVoiceOS/ovos-i2c-detection/pull/23) ([renovate[bot]](https://github.com/apps/renovate))
+
 ## [0.0.6a6](https://github.com/OpenVoiceOS/ovos-i2c-detection/tree/0.0.6a6) (2026-09-25)
 
 [Full Changelog](https://github.com/OpenVoiceOS/ovos-i2c-detection/compare/0.0.6a5...0.0.6a6)
